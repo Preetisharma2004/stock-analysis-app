@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "code"]
+	url = https://github.com/Preetisharma2004/stock-analysis-app
+	fetch = +refs/heads/*:refs/remotes/code/*
+[branch "master"]
+	remote = code
+	merge = refs/heads/master
